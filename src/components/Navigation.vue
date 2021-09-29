@@ -2,6 +2,7 @@
   <div class="navbar">
     <router-link class="link" to="/">Hello</router-link>
     <router-link class="link" to="/todo">Todo</router-link>
+    <router-link class="link" to="/condition">Conditional</router-link>
   </div>
 </template>
 

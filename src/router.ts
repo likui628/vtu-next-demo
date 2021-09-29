@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 import Home from './pages/Home.vue'
 import Todo from './pages/Todo.vue'
+import Conditional from './pages/Conditional.vue'
 
 export const router = createRouter({
   history: createWebHashHistory(),
@@ -13,6 +14,10 @@ export const router = createRouter({
     {
       path: '/todo',
       component: Todo,
+    },
+    {
+      path: '/condition',
+      component: Conditional,
     },
   ],
 })
