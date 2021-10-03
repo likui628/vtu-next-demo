@@ -4,6 +4,7 @@
     <router-link class="link" to="/todo">Todo</router-link>
     <router-link class="link" to="/condition">Conditional</router-link>
     <router-link class="link" to="/form">Form</router-link>
+    <router-link class="link" to="/post">Post</router-link>
   </div>
 </template>
 
@@ -17,6 +18,7 @@
   left: 0;
   right: 0;
   border-bottom: 1px solid #eaecef;
+  background-color: #fff;
 }
 .link {
   padding: 1.5rem;

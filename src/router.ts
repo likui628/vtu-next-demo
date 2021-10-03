@@ -4,6 +4,7 @@ import Home from './pages/Home.vue'
 import Todo from './pages/Todo.vue'
 import Conditional from './pages/Conditional.vue'
 import Form from './pages/Form.vue'
+import Post from './pages/Post.vue'
 
 export const router = createRouter({
   history: createWebHashHistory(),
@@ -23,6 +24,10 @@ export const router = createRouter({
     {
       path: '/form',
       component: Form,
+    },
+    {
+      path: '/post',
+      component: Post,
     },
   ],
 })

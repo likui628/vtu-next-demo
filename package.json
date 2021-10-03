@@ -9,6 +9,7 @@
     "test": "yarn jest"
   },
   "dependencies": {
+    "axios": "^0.22.0",
     "vue": "^3.2.13",
     "vue-router": "4"
   },
