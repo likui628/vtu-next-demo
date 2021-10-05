@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <router-link class="link" to="/">Hello</router-link>
-    <router-link class="link" to="/todo">Todo</router-link>
+    <router-link class="link" ref="todo" to="/todo">Todo</router-link>
     <router-link class="link" to="/condition">Conditional</router-link>
     <router-link class="link" to="/form">Form</router-link>
     <router-link class="link" to="/post">Post</router-link>
