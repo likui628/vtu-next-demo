@@ -39,7 +39,7 @@ const count = ref(0)
   </p>
 
   <p>
-    <modal-button >111</modal-button>
+    <modal-button/>
   </p>
 
   <p>

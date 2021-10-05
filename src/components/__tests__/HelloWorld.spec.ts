@@ -1,6 +1,5 @@
 import { mount, shallowMount } from '@vue/test-utils'
 import HelloWorld from '../HelloWorld.vue'
-import ModalButton from '../../components/ModalButton.vue'
 
 describe('HelloWorld.vue', () => {
   test('renders props.msg when passed', () => {
@@ -23,6 +22,8 @@ describe('HelloWorld.vue', () => {
         },
       },
     })
-    console.log(wrapper.html())
+    expect(document.body.outerHTML).not.toContain("I'm a teleported modal!")
+    await wrapper.get('button').trigger('click')
+    expect(document.body.outerHTML).toContain("I'm a teleported modal!")
   })
 })
