@@ -8,6 +8,7 @@
 import { ref, defineComponent } from 'vue'
 
 export default defineComponent({
+  name: 'Counter',
   setup(props, { emit }) {
     const count = ref(0)
     const handleClick = () => {

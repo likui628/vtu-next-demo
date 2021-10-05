@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import Counter from './Counter.vue'
 import StoreCounter from './StoreCounter.vue'
-import StoreCounterUseStore from './StoreCounterUseStore.vue'
+import ModalButton from './ModalButton.vue'
 
 defineProps<{ msg: string }>()
 
@@ -39,8 +39,7 @@ const count = ref(0)
   </p>
 
   <p>
-    useStore
-    <store-counter />
+    <modal-button >111</modal-button>
   </p>
 
   <p>

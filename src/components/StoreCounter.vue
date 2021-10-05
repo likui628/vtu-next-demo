@@ -8,6 +8,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
+  name: 'StoreCounter',
   computed: {
     count() {
       return this.$store.state.count

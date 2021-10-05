@@ -9,6 +9,7 @@ import { defineComponent, computed } from 'vue'
 import { useStore } from '../store'
 
 export default defineComponent({
+  name: 'StoreCounterUseStore',
   setup() {
     const store = useStore()
     const count = computed(() => store.state.count)
